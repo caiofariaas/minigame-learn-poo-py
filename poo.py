@@ -24,7 +24,8 @@ class ContaBancaria:
     def sacar(self):
         if self.saldo <= 0:
             print("\nSua conta se encontra vazia! Deposite primeiro.")
-            print(f"\nTotal em conta bancaria: R${self.saldo}\nTotal em carteira : R${self.carteira:.2f}\n")
+            print(f"\nTotal em conta banca1
+            ria: R${self.saldo}\nTotal em carteira : R${self.carteira:.2f}\n")
         else:
             try:
                 print(f"\nTotal em conta bancaria: R${self.saldo}\nTotal em carteira : R${self.carteira:.2f}\n")
